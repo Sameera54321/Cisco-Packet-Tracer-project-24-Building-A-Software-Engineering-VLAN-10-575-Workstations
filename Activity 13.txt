@@ -1,0 +1,55 @@
+no router ospf 7
+router ospf 7
+
+network 20.10.200.0 0.0.0.3 area 0
+network 20.10.200.4 0.0.0.3 area 0
+network 20.20.20.0 0.0.0.3 area 0
+
+do wr
+-----------------------------------------------
+
+no router ospf 8
+router ospf 8
+
+network 20.10.200.0 0.0.0.3 area 0
+network 192.168.200.0 0.0.0.3 area 0
+network 192.168.200.8 0.0.0.3 area 0
+
+do wr
+---------------------------------------------
+
+no router ospf 9
+router ospf 9
+
+network 20.10.200.4 0.0.0.3 area 0
+network 192.168.200.12 0.0.0.3 area 0
+network 192.168.200.4 0.0.0.3 area 0
+
+do wr
+---------------------------------------------
+
+no router ospf 5
+router ospf 5
+
+network 20.20.20.0 0.0.0.3 area 0
+network 20.10.100.4 0.0.0.3 area 0
+network 20.10.100.0 0.0.0.3 area 0
+
+do wr
+---------------------------------------------
+no router ospf 3
+router ospf 3
+
+network 192.168.100.0 0.0.0.3 area 0
+network 192.168.100.4 0.0.0.3 area 0
+network 20.10.100.0 0.0.0.3 area 0
+
+do wr
+---------------------------------------------
+no router ospf 4
+router ospf 4
+
+network 192.168.100.12 0.0.0.3 area 0
+network 192.168.100.8 0.0.0.3 area 0
+network 20.10.100.4 0.0.0.3 area 0
+do wr
