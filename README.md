@@ -1,0 +1,2 @@
+# Cisco-Packet-Tracer-project-24-Building-A-Software-Engineering-VLAN-10-575-Workstations
+I’m excited to share my latest Cisco Packet Tracer project – Building A (Software Engineering) – a high‑density network simulation of an entire building dedicated to a software engineering department. The topology features 575+ desktop PCs (PC1 … PC575+), all operating within VLAN 10 (Software Engineering Plan 10).
